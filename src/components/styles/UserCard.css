@@ -1,0 +1,55 @@
+.user {
+  border: 2px solid #aaa3;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 0.8em;
+  overflow: hidden;
+  transition: transform 250ms ease;
+}
+.user:hover {
+  transform: scale(1.1);
+}
+.user__body {
+  padding: 1em 0.8em 2em;
+}
+.user__name {
+  text-align: center;
+}
+.user__line {
+  margin-top: 0.6em;
+  margin-bottom: 1em;
+  border-color: #aaa3;
+}
+.user__list {
+  display: grid;
+  gap: 0.8em;
+}
+.user__item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2em;
+}
+.user__label {
+  color: #aaa;
+  font-weight: 300;
+}
+.user__item-value {
+  padding-left: 1em;
+}
+.user__footer {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 0.8em;
+}
+#trash {
+  width: 10%;
+  height: 35px;
+  max-width: 100px;
+  background-color: rgba(252, 63, 50, 0.89);
+  color: white;
+}
+#edit {
+  width: 10%;
+  height: 35px;
+  max-width: 100px;
+}

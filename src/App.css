@@ -1,0 +1,45 @@
+.header_cont {
+  display: flex;
+  align-items: center;
+  max-width: 90em;
+  justify-content: space-between;
+}
+.btn__container {
+  width: 25%;
+  display: flex;
+}
+.header_title {
+  width: 20%;
+  font-size: 5em;
+}
+h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.formuser__btn-open {
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 400;
+  padding-top: 0.6em;
+  padding-bottom: 0.6em;
+  background-color: rgb(22, 110, 218);
+  color: white;
+  border-radius: 0.5em;
+  margin-top: 1em;
+}
+.formuser__btn-open:hover {
+  filter: brightness(1.2);
+}
+
+.user-container {
+  display: flex;
+  gap: 2em;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+@media (min-width: 1440px) {
+  .btn__container{
+    position: relative;
+    right: -350px;
+  }
+}
