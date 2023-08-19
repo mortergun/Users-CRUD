@@ -55,7 +55,7 @@ const FormUser = ({
             {...register("first_name", { required: true })}
             type="text"
             id="first_name"
-            placeholder="Blue Label"
+            placeholder="Nombre..."
           />
         </div>
         <div className="formuser__group">
@@ -67,7 +67,7 @@ const FormUser = ({
             {...register("last_name")}
             type="text"
             id="last_name"
-            placeholder="Perez Perez"
+            placeholder="Apellido..."
           />
         </div>
         <div className="formuser__group">
